@@ -44,7 +44,7 @@ const AppliedJob = () => {
         }
     },[jobs])
     return (
-        <div>
+        <div className="min-h-[70vh]">
             <h1 className="text-xl md:text-2xl lg:text-4xl font-bold py-10 md:py-20 text-center bg-[#3651ff08]">Applied Jobs</h1>
             <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-center my-2  underline">Total Jobs: {displayJobs.length}</h1>
             <div className="px-5 md:px-[10%] mb-10"> 
